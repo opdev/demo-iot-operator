@@ -1,8 +1,8 @@
 # operator-iot
-// TODO(user): Add simple overview of use/purpose
+// The demo utilizes Operator-SDK's tooling to quickly scaffold a Kubernetes operator, showcasing how sensors and cameras can be easily added as custom resources to demonstrate the platform's ease of use and speed of development.
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+// TODO(user): The custom controller is responsible for updating the status and ensuring that the size of the pod is always up-to-date. It achieves this by comparing the current state of the cluster with the desired state, and then making the necessary adjustments to ensure that the pod size is updated accordingly. The controller then updates the status of the pod to reflect these changes.
 
 ## Getting Started
 You’ll need a Kubernetes cluster to run against. You can use [KIND](https://sigs.k8s.io/kind) to get a local cluster for testing, or run against a remote cluster.
